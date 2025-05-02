@@ -1,0 +1,80 @@
+collections_config:
+  config_default:
+    path: exampleSite/config/_default
+    name: Config Default
+    icon: chair_alt
+  content_english_blog:
+    path: exampleSite/content/english/blog
+    name: Content English Blog
+    icon: comments_disabled
+  content_english_contact:
+    path: exampleSite/content/english/contact
+    name: Content English Contact
+    icon: connect_without_contact
+  content_english_privacy_policy:
+    path: exampleSite/content/english/privacy-policy
+    name: Content English Privacy Policy
+    icon: connecting_airports
+  content_english_products:
+    path: exampleSite/content/english/products
+    name: Content English Products
+    icon: connecting_airports
+  content_english_terms_conditions:
+    path: exampleSite/content/english/terms-conditions
+    name: Content English Terms Conditions
+    icon: integration_instructions
+  content_french_blog:
+    path: exampleSite/content/french/blog
+    name: Content French Blog
+    icon: content_copy
+  content_french_contact:
+    path: exampleSite/content/french/contact
+    name: Content French Contact
+    icon: connect_without_contact
+  content_french_privacy_policy:
+    path: exampleSite/content/french/privacy-policy
+    name: Content French Privacy Policy
+    icon: content_copy
+  content_french_products:
+    path: exampleSite/content/french/products
+    name: Content French Products
+    icon: content_cut
+  content_french_terms_conditions:
+    path: exampleSite/content/french/terms-conditions
+    name: Content French Terms Conditions
+    icon: cancel_presentation
+  data_en:
+    path: exampleSite/data/en
+    name: Data En
+    icon: dataset
+  data_fr:
+    path: exampleSite/data/fr
+    name: Data Fr
+    icon: dataset
+  i18n:
+    path: exampleSite/i18n
+    name: I18n
+    icon: iron
+paths:
+  static: static
+  uploads: static/uploads
+timezone: America/Los_Angeles
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
+    linkify: false
+    table: false
+    strikethrough: false
+    subscript: false
+    superscript: false
+    heading_ids: false
+    breaks: false
+    xhtml: false
+    attributes: false
+    typographer: false
+    treat_indentation_as_code: true
+_snippets_imports:
+  hugo:
+    exclude:
+      - hugo_instagram
